@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from './assets/logo_FINAL_para registro-02.png';
-import NavBar from './NavBar.css';
+// import NavBar from './NavBar.css';
 import CartWidget from "../CartWidget/CartWidget";
 
 function BasicExample() {
