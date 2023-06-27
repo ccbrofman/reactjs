@@ -1,4 +1,4 @@
-
+import React from "react"
 
 const ItemCard =({nombre, precio, categoria, img}) => {
 

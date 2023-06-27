@@ -1,3 +1,4 @@
+import React from "react"
 import { useEffect, useState} from "react"
 import {pedirDatos} from "../../helpers/pedirDatos"
 
@@ -18,6 +19,7 @@ return {
     productos,
     loading
 }
+
 
 
 }

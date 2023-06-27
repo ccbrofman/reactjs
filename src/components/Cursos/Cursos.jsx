@@ -1,6 +1,7 @@
-import {Cursos } from "../Cursos"
+import React from "react"
+import Cursos  from "../Cursos"
 
-const Cursos = () => {
+const cursos = () => {
 
 return (
     <div ClassName= "container my-5">
@@ -14,4 +15,4 @@ return (
 
 
 }
-export default Cursos
+export default cursos

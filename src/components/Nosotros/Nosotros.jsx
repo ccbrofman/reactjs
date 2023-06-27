@@ -1,3 +1,4 @@
+import {React} from "react"
 import { useProductos } from "../hooks/useProductos";
 
 const Nosotros = () => {
