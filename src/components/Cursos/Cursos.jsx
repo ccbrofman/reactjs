@@ -1,7 +1,7 @@
 import React from "react"
-import Cursos  from "../Cursos"
+import { useProductos } from "../hooks/useProductos"
 
-const cursos = () => {
+const Cursos = () => {
 
 return (
     <div ClassName= "container my-5">
@@ -15,4 +15,4 @@ return (
 
 
 }
-export default cursos
+export default Cursos

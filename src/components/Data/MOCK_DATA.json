@@ -1,128 +1,130 @@
+
+
 [
     {
         "id": 1,
         "img": "../assets/canula guedel.jpg",
         "nombre": "Tabla Rígida",
         "precio": 18000,
-        "categoria": "Extricación"
+        "category": "extricacion"
     },
     {
         "id": 2,
         "img": "../assets/collarcervicalplano",
         "nombre": "Set collar cervical plano",
         "precio": 8000,
-        "categoria": "Extricación"
+        "category":"extricacion"
     },
     {
         "id": 3,
         "img": "../assets/collar cervical con orificio traqueal.jpg",
         "nombre": "Collar cervical con orificio traqueal",
         "precio": 10000,
-        "categoria": "Extricación"
+        "category":"extricacion"
     },
     {
         "id": 4,
         "img": "../assets/inmovilizador lateral.jpg",
         "nombre": "Inmovilizador lateral",
         "precio": 12000,
-        "categoria": "Extricación"
+        "category": "extricacion"
     },
     {
-        "id": 5,
+        "id":5,
         "img": "../assets/colchon vacio",
         "nombre": "Colchon de vacio",
         "precio": 45000,
-        "categoria": "Extricación"
+        "category":"extricacion"
     },
     {
         "id": 6,
         "img": "../assets/camilla canasta.jpg",
         "nombre": "Camilla canasta rígida",
         "precio": 65000,
-        "categoria": "Extricación"
+        "category": "extricacion"
     },
     {
         "id": 7,
         "img": "../assets/camilla plegable.jpg",
         "nombre": "Camilla plegable",
         "precio": 22000,
-        "categoria": "Extricación"
+        "category": "extricacion"
     },
     {
         "id": 8,
         "img": "../assets/cincha pelvica.jpg",
         "nombre": "Cincha pelvica sin control vascular",
         "precio": 25000,
-        "categoria": "Extricación"
+        "category":"extricacion"
     },
     {
-        "id": 9,
+        "id":9,
         "img": "../assets/set ferulas.jpg",
         "nombre": "Set de ferulas inflables con inflador",
         "precio": 30000,
-        "categoria": "Extricación"
+        "category":"extricacion"
     },
     {
         "id": 10,
         "img": "../assets/set venda y parche.jpg",
         "nombre": "Set de vendas y parches",
         "precio": 45000,
-        "categoria": "Control del sangrado"
+        "category": "controlsangrado"
     },
     {
         "id": 11,
         "img": "../assets/torniquete tactico.jpg",
         "nombre": "Torniquete Táctico",
         "precio": 10000,
-        "categoria": "Control del sangrado"
+        "category": "controlsangrado"
     },
     {
         "id": 12,
         "img": "../assets/combat gauze.jpg",
         "nombre": "Gasa para control del sangrado",
         "precio": 15000,
-        "categoria": "Control del sangrado"
+        "category":"controlsangrado"
     },
     {
         "id": 13,
         "img": "../assets/aspirador manual.jpg",
         "nombre": "Aspirador manual adulto/pediatrico",
         "precio": 7000,
-        "categoria": "Vía Aérea"
+        "category": "viaaerea"
     },
     {
         "id": 14,
         "img": "../assets/ambu adulto.jpg",
         "nombre": "Ambu para adultos",
         "precio": 8000,
-        "categoria": "Vía Aérea"
+        "category": "viaaerea"
     },
     {
-        "id": 15,
+        "id":15,
         "img": "../assets/canula guedel.jpg",
         "nombre": "Set de Canulas de Guedel",
         "precio": 12000,
-        "categoria": "Vía Aérea"
+        "category": "viaaerea"
     },
     {
-        "id": 16,
+        "id":16,
         "img": "../assets/mascara laringea.jpg",
         "nombre": "Set máscaras laringeas",
         "precio": 15000,
-        "categoria": "Vía Aérea"
+        "category": "viaaerea"
     },
     {
-        "id": 17,
+        "id":17,
         "img": "../assets/pinza maguil.jpg",
         "nombre": "Pinza de Magill",
         "precio": 5000,
-        "categoria": "Vía Aérea"
+        "category": "viaaerea"
     },
     {
         "id": 18,
         "img": "../assets/set tet.jpg",
         "nombre": "Set de Tubos endotraquales. Medidas varias",
         "precio": 11000,
-        "categoria": "Vía Aérea"
+        "category": "viaaerea"
     }
-]
+] 
