@@ -23,17 +23,15 @@ function BasicExample() {
                         <Nav.Link  style={{ color: 'white'}}  href="/App">Inicio</Nav.Link>
                         <Nav.Link   style={{ color: 'white'}} href="/Nosotros">Nosotros</Nav.Link>
                         <Nav.Link   style={{ color: 'white'}} href="/Cursos">Cursos</Nav.Link>
-                        <NavDropdown  style={{ color: 'white'}}  title="Productos" id="basic-nav-dropdown">
-                            <NavDropdown.Item   href="/productos/extricacion">Extricación</NavDropdown.Item>
-                            <NavDropdown.Item   href="/productos/controlsangrado">
-                                Control del Sangrado
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="/productos/viaaerea">Vía Aérea</NavDropdown.Item>
+                        <NavDropdown  title="Productos" id="basic-nav-dropdown">
+                            <NavDropdown.Item  href="/productos/Extricacion">Extricación</NavDropdown.Item>
+                            <NavDropdown.Item   href="/productos/ControlDelSangrado"> Control del Sangrado</NavDropdown.Item>
+                            <NavDropdown.Item  href="/productos/ViaAerea">Vía Aérea</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
-            <CartWidget />
+            <CartWidget/>
         </Navbar>
     );
 }

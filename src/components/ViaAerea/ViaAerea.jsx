@@ -1,7 +1,7 @@
 import {React} from "react"
-// import { useProductos } from "../hooks/useProductos";
+import { UseProductos } from "../hooks/UseProductos";
 
-const viaaerea = () => {
+const ViaAerea = () => {
 
 return (
     <div ClassName= "container my-5">
@@ -15,4 +15,4 @@ return (
 
 
 }
-export default viaaerea
+export default ViaAerea

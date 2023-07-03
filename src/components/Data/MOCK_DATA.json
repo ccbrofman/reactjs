@@ -3,128 +3,158 @@
 [
     {
         "id": 1,
-        "img": "../assets/canula guedel.jpg",
+        "img": "../assets/tablarigida.jpg",
         "nombre": "Tabla Rígida",
         "precio": 18000,
-        "category": "extricacion"
+        "category": "Extricacion",
+        "stock": 10
+
     },
     {
         "id": 2,
-        "img": "../assets/collarcervicalplano",
+        "img": "../assets/collarcervicalplano.jpg",
         "nombre": "Set collar cervical plano",
         "precio": 8000,
-        "category":"extricacion"
+        "category":"Extricacion",
+        "stock": 20
+        
     },
     {
         "id": 3,
-        "img": "../assets/collar cervical con orificio traqueal.jpg",
+        "img": "../assets/collarorificiotraqueal.jpg",
         "nombre": "Collar cervical con orificio traqueal",
         "precio": 10000,
-        "category":"extricacion"
+        "category":"Extricacion",
+        "stock": 10
+
     },
     {
         "id": 4,
-        "img": "../assets/inmovilizador lateral.jpg",
+        "img": "../assets/inmovilizadorlateral.jpg",
         "nombre": "Inmovilizador lateral",
         "precio": 12000,
-        "category": "extricacion"
+        "category": "Extricacion",
+        "stock": 15
     },
     {
         "id":5,
-        "img": "../assets/colchon vacio",
+        "img": "../assets/colchonvacio",
         "nombre": "Colchon de vacio",
         "precio": 45000,
-        "category":"extricacion"
+        "category":"Extricacion",
+        "stock": 5
     },
     {
         "id": 6,
-        "img": "../assets/camilla canasta.jpg",
+        "img": "../assets/camillacanasta.jpg",
         "nombre": "Camilla canasta rígida",
         "precio": 65000,
-        "category": "extricacion"
+        "category": "Extricacion",
+        "stock": 4
     },
     {
         "id": 7,
-        "img": "../assets/camilla plegable.jpg",
+        "img": "../assets/camillaplegable.jpg",
         "nombre": "Camilla plegable",
         "precio": 22000,
-        "category": "extricacion"
+        "category": "Extricacion",
+        "stock": 15
     },
     {
         "id": 8,
-        "img": "../assets/cincha pelvica.jpg",
+        "img": "../assets/cinchapelvica.jpg",
         "nombre": "Cincha pelvica sin control vascular",
         "precio": 25000,
-        "category":"extricacion"
+        "category":"Extricacion",
+        "stock": 5
     },
     {
         "id":9,
-        "img": "../assets/set ferulas.jpg",
+        "img": "../assets/setferulas.jpg",
         "nombre": "Set de ferulas inflables con inflador",
         "precio": 30000,
-        "category":"extricacion"
+        "category":"Extricacion",
+        "stock": 20
     },
     {
         "id": 10,
-        "img": "../assets/set venda y parche.jpg",
+        "img": "../assets/setvendayparche.jpg",
         "nombre": "Set de vendas y parches",
         "precio": 45000,
-        "category": "controlsangrado"
+        "category": "ControlDelSangrado",
+        "stock": 50
     },
     {
         "id": 11,
-        "img": "../assets/torniquete tactico.jpg",
+        "img": "../assets/torniquetetactico.jpg",
         "nombre": "Torniquete Táctico",
         "precio": 10000,
-        "category": "controlsangrado"
+        "category":"ControlDelSangrado",
+        "stock": 150
     },
     {
         "id": 12,
-        "img": "../assets/combat gauze.jpg",
+        "img": "../assets/combatgauze.jpg",
         "nombre": "Gasa para control del sangrado",
         "precio": 15000,
-        "category":"controlsangrado"
+        "category":"ControlDelSangrado",
+        "stock": 40
     },
     {
         "id": 13,
-        "img": "../assets/aspirador manual.jpg",
+        "img": "../assets/aspiradormanual.jpg",
         "nombre": "Aspirador manual adulto/pediatrico",
         "precio": 7000,
-        "category": "viaaerea"
+        "category": "ViaAerea",
+        "stock": 30
     },
     {
         "id": 14,
-        "img": "../assets/ambu adulto.jpg",
+        "img": "../assets/ambuadulto.jpg",
         "nombre": "Ambu para adultos",
         "precio": 8000,
-        "category": "viaaerea"
+        "category": "ViaAerea",
+        "stock": 40
     },
     {
         "id":15,
-        "img": "../assets/canula guedel.jpg",
+        "img": "../assets/canguedel.jpg",
         "nombre": "Set de Canulas de Guedel",
         "precio": 12000,
-        "category": "viaaerea"
+        "category": "ViaAerea",
+        "stock": 200
     },
     {
         "id":16,
-        "img": "../assets/mascara laringea.jpg",
+        "img": "../assets/masclaringea.jpg",
         "nombre": "Set máscaras laringeas",
         "precio": 15000,
-        "category": "viaaerea"
+        "category": "ViaAerea",
+        "stock": 60
     },
     {
         "id":17,
-        "img": "../assets/pinza maguil.jpg",
+        "img": "../assets/pinzamaguil.jpg",
         "nombre": "Pinza de Magill",
         "precio": 5000,
-        "category": "viaaerea"
+        "category":"ViaAerea",
+        "stock": 50
     },
     {
         "id": 18,
-        "img": "../assets/set tet.jpg",
+        "img": "../assets/settet.jpg",
         "nombre": "Set de Tubos endotraquales. Medidas varias",
         "precio": 11000,
-        "category": "viaaerea"
+        "category":"ViaAerea",
+        "stock": 30
+    },
+
+    {
+        "id": 19,
+        "img": "../assets/reboa.jpg",
+        "nombre": "Catéter REBOA",
+        "precio": 50000,
+        "category":"ControlDelSangrado",
+        "stock": 5
     }
 ] 

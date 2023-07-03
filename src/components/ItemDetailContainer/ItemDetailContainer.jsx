@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import { pedirDatos } from '../../helpers/pedirDatos'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from "react-router-dom"
+import ItemDetail from "../ItemDetail/ItemDetail"
 
 const ItemDetailContainer = () => {
 
@@ -26,7 +27,12 @@ const ItemDetailContainer = () => {
 
     return (
         <div className='container my-5'>
-            <ItemList items={productos} />
+{
+    loading
+    ?<h2>Cargando...</h2>
+    :<ItemDetail {...item} /> 
+}
+
         </div>
     )
 

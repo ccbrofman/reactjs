@@ -1,8 +1,8 @@
 import React from 'react'
-import MOCK_DATA from '../components/Data/MOCK_DATA.json'
+import ItemCount from '../ItemCount/ItemCount'
 
 
-const ItemDetail = ({id, nombre, precio, category, descripcion, img}) => {
+const ItemDetail = ({id, nombre, precio, category, descripcion, img, stock}) => {
 
     return (
 
@@ -14,7 +14,12 @@ const ItemDetail = ({id, nombre, precio, category, descripcion, img}) => {
             <p> {descripcion} </p>
             <h4>Precio: $ {precio} </h4>
             <br/>
-            <small>categoría: {category} </small>
+            <small>Categoría: {category} </small>
+
+            <ItemCount
+            max={stock} />
+
+
         </div>
 
     )

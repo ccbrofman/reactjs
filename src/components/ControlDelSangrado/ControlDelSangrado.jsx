@@ -1,7 +1,7 @@
 import {React} from "react"
-// import { useProductos } from "../hooks/useProductos";
+import { useProductos } from "../hooks/UseProductos";
 
-const controlsangrado = () => {
+const ControlDelSangrado = () => {
 
 return (
     <div ClassName= "container my-5">
@@ -15,4 +15,4 @@ return (
 
 
 }
-export default controlsangrado
+export default ControlDelSangrado
