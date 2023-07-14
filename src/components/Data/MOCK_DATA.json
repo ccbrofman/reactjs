@@ -38,7 +38,7 @@
     },
     {
         "id":5,
-        "img": "../assets/colchonvacio",
+        "img": "../assets/colchonvacio.jpg",
         "nombre": "Colchon de vacio",
         "precio": 45000,
         "category":"Extricacion",
@@ -103,7 +103,7 @@
     {
         "id": 13,
         "img": "../assets/aspiradormanual.jpg",
-        "nombre": "Aspirador manual adulto/pediatrico",
+        "nombre": "Aspirador Manual Adulto/Pediátrico",
         "precio": 7000,
         "category": "ViaAerea",
         "stock": 30

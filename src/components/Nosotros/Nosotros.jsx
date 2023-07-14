@@ -1,9 +1,12 @@
 import {React} from "react"
 import useMobile from "../hooks/useMobile";
 import { useProductos } from "../hooks/UseProductos";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
+
 
 const Nosotros = () => {
+
+
 const isMobile = useMobile ()
 
 const clickear = () => {

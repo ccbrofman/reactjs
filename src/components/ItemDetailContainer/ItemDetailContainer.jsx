@@ -1,11 +1,12 @@
 import React from "react"
 import { useState } from 'react'
-// import '.Itemlistcontainer.css'
+// import '.ItemlistContainer.css'
 import { useEffect } from 'react'
 import { pedirDatos } from '../../helpers/pedirDatos'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from "react-router-dom"
 import ItemDetail from "../ItemDetail/ItemDetail"
+
 
 const ItemDetailContainer = () => {
 

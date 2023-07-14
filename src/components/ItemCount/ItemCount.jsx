@@ -1,11 +1,11 @@
 import { useState } from "react"
-import {MOCK_DATA} from '../Data/MOCK_DATA.json'
+
 
 
 const ItemCount =({max}) => {
 const [cantidad, setCantidad] = useState (1)
 const handleSumar= ( ) =>{
-    setCantidad (cantidad + 1)
+    cantidad < max && setCantidad (cantidad + 1)
 
 }
 const handleRestar =()=>{
