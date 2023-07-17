@@ -4,21 +4,25 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import logo from './assets/logo.png'
-import NavBar from './NavBar.css'
+import './NavBar.css'
 import CartWidget from "../CartWidget/CartWidget"
-import Buscador from "../../Buscador"
+// import Buscador from "../../Buscador"
+import { useContext } from "react"
+import { AuthContext } from "../../context/AuthContext"
+
 
 
 
 
 function BasicExample() {
+const {user,logout} = useContext (AuthContext)
+
+
     return (
-        <Navbar className="NavBar" expand="lg">
+        <Navbar className="NavBar" >
             <Container>
                 <div className="logo-container">
                     <img src={logo} alt="logopectu" className="logo"/>
- 
-
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" >
@@ -33,9 +37,14 @@ function BasicExample() {
                     </Nav>
                 </Navbar.Collapse>
                 </div>
-                <Buscador/>
+                {/* <Buscador/> */}
             </Container>
-            <CartWidget/>
+            <CartWidget />
+            <div className="sesion"> 
+            <p className="mensaje" > Bienvenid@: {user.email} </p>
+            <button className="btn btn-danger my-2 mx-3" onClick={logout}>Salir</button>
+            </div>
+
         </Navbar>
 
 

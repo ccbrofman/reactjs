@@ -1,5 +1,5 @@
 import {React} from "react"
-import { UseProductos } from "../hooks/UseProductos";
+// import { db} from '../../firebase/config'
 
 const Extricacion = () => {
 

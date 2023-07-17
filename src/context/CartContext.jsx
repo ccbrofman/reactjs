@@ -11,6 +11,8 @@ export const CartProvider =({children}) => {
     const agregarAlCarrito = (item) =>{
     setCart ([...cart, item])
     }
+
+    
  
     const eliminarDelCarrito =(id) =>{
         setCart (cart.filter ((prod) => prod.id !==id) )

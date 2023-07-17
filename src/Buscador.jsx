@@ -30,7 +30,7 @@ const Buscador = () => {
     return (
         <form className="p-3" onSubmit={handleSubmit}>
             <input ref={ref} className="form-control" type= "text" />
-            <button  type="submit" className="btn  btn-success">Buscar</button>
+            <button  type="submit" className="btn  btn-success display: none">Buscar</button>
             <button onClick={handleReset} type="reset" className="btn  btn-light">Borrar</button>
         </form>
     )

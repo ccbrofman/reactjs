@@ -1,17 +1,17 @@
 
 import React, { useEffect, useState } from "react";
 import { useFetchData } from "../../helpers/FetchData";
-import { pedirDatos } from "../../helpers/PedirDatos";
+import {db} from '../../firebase/config'
 import { CustomCard } from "../CustomCard/CustomCard";
 
 
-const Productos = ({ addToCart }) => {
+const productos = ({ addToCart }) => {
     const [loading, setLoading] = useState(true);
 
     const cardData = useFetchData();
     console.log(cardData);
     useEffect(() => {
-        pedirDatos()
+        db()
             .then((res) => {
                 console.log(res);
             })
@@ -43,4 +43,4 @@ const Productos = ({ addToCart }) => {
     );
 };
 
-export default Productos;
+export default productos;

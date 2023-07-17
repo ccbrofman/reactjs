@@ -1,11 +1,9 @@
 import React from "react"
-import { useState } from 'react'
-// import '.ItemlistContainer.css'
-import { useEffect } from 'react'
-import { pedirDatos } from '../../helpers/pedirDatos'
-import ItemList from '../ItemList/ItemList'
+import { useState,useEffect } from 'react'
 import { useParams } from "react-router-dom"
 import ItemDetail from "../ItemDetail/ItemDetail"
+import {doc, getDoc} from 'firebase/firestore'
+import { db } from "../../firebase/config"
 
 
 const ItemDetailContainer = () => {
@@ -13,18 +11,23 @@ const ItemDetailContainer = () => {
     const [item, setItem] = useState(null)
     const  [loading, setLoading] = useState (true)
     const {itemId} = useParams ()
-    console.log (item)
-    console.log(itemId)
+ 
 
     useEffect(() => {
         setLoading (true)
-        pedirDatos()
-            .then((res) => {
-            setItem (res.find ((prod)=> prod.id === Number (itemId)))
-            })
-            .catch((err) =>  console.log(err))
-            .finally (() => setLoading (false))
-            }, [itemId])
+        const itemRef =doc (db, "productos", itemId)
+        getDoc (itemRef)
+        .then ((doc) =>{
+            setItem ({
+            ...doc.data (),
+            id: doc.id
+    })
+})
+.catch (e => console.log (e))
+.finally (()=> setLoading (false))
+
+
+}, [itemId])
 
     return (
         <div className='container my-5'>

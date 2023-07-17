@@ -34,9 +34,9 @@ const ItemDetail = ({ id, nombre, precio, category, descripcion, img, stock }) =
 
     return (
 
-        <div className="container my-5">
+        <div className='col-3 m-2 shadow p-3 mb-5 bg-white rounded'>
             <h2>{nombre}</h2> 
-            <img src={img} alt={nombre} />
+            <img className='imagen-card' src={img} alt={nombre} />
             <p> {descripcion} </p>
             <h4>Precio: $ {precio} </h4>
             <br />
@@ -44,7 +44,7 @@ const ItemDetail = ({ id, nombre, precio, category, descripcion, img, stock }) =
 
             { 
                 isInCart(id) 
-                    ? <Link className='btn btn-success' to="/cart"> Terminar mi compra </Link>
+                    ? <Link className=' my-3 mx-3 btn btn-success' to="/cart"> Terminar mi compra </Link>
                     : <ItemCount
                         max={stock}
                         cantidad={cantidad}
@@ -53,7 +53,7 @@ const ItemDetail = ({ id, nombre, precio, category, descripcion, img, stock }) =
                     />
                 }
             <hr/>
-            <button onClick={handleVolver} className="btn btn-primary"> Volver </button>
+            <button onClick={handleVolver} className=" my-3 mx-5 btn btn-primary"> Volver </button>
 
         </div>
 
